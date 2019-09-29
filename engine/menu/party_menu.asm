@@ -22,7 +22,8 @@ DrawPartyMenu_:
 	ld [H_AUTOBGTRANSFERENABLED], a
 	call ClearScreen
 	call UpdateSprites
-	callba LoadMonPartySpriteGfxWithLCDDisabled ; load pokemon icon graphics
+RedrawPartyMenu_ReloadSprites:
+	callba LoadPartyMonSprites ; load pokemon icon graphics
 
 RedrawPartyMenu_:
 	ld a, [wPartyMenuTypeOrMessageID]
@@ -49,7 +50,7 @@ RedrawPartyMenu_:
 	call GetPartyMonName
 	pop hl
 	call PlaceString ; print the pokemon's name
-	callba WriteMonPartySpriteOAMByPartyIndex ; place the appropriate pokemon icon
+	callba PlacePartyMonSprite ; place the appropriate pokemon icon
 	ld a, [hPartyMonIndex]
 	ld [wWhichPokemon], a
 	inc a

@@ -55,19 +55,7 @@ GetAnimationSpeed:
 	ld bc, $10
 	ld a, [wCurrentMenuItem]
 	call AddNTimes
-	ld c, $40 ; amount to increase the tile id by
-	ld a, [hl]
-	cp $4 ; tile ID for SPRITE_BALL_M
-	jr z, .editCoords
-	cp $8 ; tile ID for SPRITE_HELIX
-	jr nz, .editTileIDS
-; SPRITE_BALL_M and SPRITE_HELIX only shake up and down
-.editCoords
-	dec hl
-	dec hl ; dec hl to the OAM y coord
-	ld c, $1 ; amount to increase the y coord by
-; otherwise, load a second sprite frame
-.editTileIDS
+	ld c, $2
 	ld b, $4
 	ld de, $4
 .loop
@@ -86,7 +74,7 @@ GetAnimationSpeed:
 ; that each frame lasts for green HP, yellow HP, and red HP in order.
 ; On the naming screen, the yellow HP speed is always used.
 PartyMonSpeeds:
-	db 5, 16, 32
+	db 10, 24, 32
 
 LoadMonPartySpriteGfx:
 ; Load mon party sprite tile patterns into VRAM during V-blank.

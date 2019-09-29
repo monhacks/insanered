@@ -2062,7 +2062,10 @@ wMonHGrowthRate:: ; d0cb
 wMonHLearnset:: ; d0cc
 ; bit field
 	flag_array 50 + 5
+
+wMonHSpriteBank::
 	ds 1
+
 
 wSavedTilesetType:: ; d0d4
 ; saved at the start of a battle and then written back at the end of the battle
@@ -2883,6 +2886,7 @@ wRoute18Gate1FCurScript:: ; d669
 	ds 78
 wGameProgressFlagsEnd::
 
+wEvolutionData::
 	ds 56
 
 wObtainedHiddenItemsFlags::

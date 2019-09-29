@@ -20,8 +20,7 @@ INCLUDE "data/facing.asm"
 
 INCLUDE "engine/black_out.asm"
 
-MewPicFront:: INCBIN "pic/bmon/mew.pic"
-MewPicBack::  INCBIN "pic/monback/mewb.pic"
+
 INCLUDE "data/baseStats/mew.asm"
 
 INCLUDE "engine/battle/safari_zone.asm"
@@ -548,8 +547,6 @@ ExeggcutePicFront::   INCBIN "pic/bmon/exeggcute.pic"
 ExeggcutePicBack::    INCBIN "pic/monback/exeggcuteb.pic"
 GrimerPicFront::      INCBIN "pic/bmon/grimer.pic"
 GrimerPicBack::       INCBIN "pic/monback/grimerb.pic"
-GengarPicFront::      INCBIN "pic/bmon/gengar.pic"
-GengarPicBack::       INCBIN "pic/monback/gengarb.pic"
 NidoranFPicFront::    INCBIN "pic/bmon/nidoranf.pic"
 NidoranFPicBack::     INCBIN "pic/monback/nidoranfb.pic"
 NidoqueenPicFront::   INCBIN "pic/bmon/nidoqueen.pic"
@@ -625,8 +622,6 @@ DrowzeePicFront::     INCBIN "pic/bmon/drowzee.pic"
 DrowzeePicBack::      INCBIN "pic/monback/drowzeeb.pic"
 GolemPicFront::       INCBIN "pic/bmon/golem.pic"
 GolemPicBack::        INCBIN "pic/monback/golemb.pic"
-MagmarPicFront::      INCBIN "pic/bmon/magmar.pic"
-MagmarPicBack::       INCBIN "pic/monback/magmarb.pic"
 ElectabuzzPicFront::  INCBIN "pic/bmon/electabuzz.pic"
 ElectabuzzPicBack::   INCBIN "pic/monback/electabuzzb.pic"
 MagnetonPicFront::    INCBIN "pic/bmon/magneton.pic"
@@ -706,14 +701,6 @@ JigglypuffPicFront::  INCBIN "pic/bmon/jigglypuff.pic"
 JigglypuffPicBack::   INCBIN "pic/monback/jigglypuffb.pic"
 WigglytuffPicFront::  INCBIN "pic/bmon/wigglytuff.pic"
 WigglytuffPicBack::   INCBIN "pic/monback/wigglytuffb.pic"
-EeveePicFront::       INCBIN "pic/bmon/eevee.pic"
-EeveePicBack::        INCBIN "pic/monback/eeveeb.pic"
-FlareonPicFront::     INCBIN "pic/bmon/flareon.pic"
-FlareonPicBack::      INCBIN "pic/monback/flareonb.pic"
-JolteonPicFront::     INCBIN "pic/bmon/jolteon.pic"
-JolteonPicBack::      INCBIN "pic/monback/jolteonb.pic"
-VaporeonPicFront::    INCBIN "pic/bmon/vaporeon.pic"
-VaporeonPicBack::     INCBIN "pic/monback/vaporeonb.pic"
 MachopPicFront::      INCBIN "pic/bmon/machop.pic"
 MachopPicBack::       INCBIN "pic/monback/machopb.pic"
 ZubatPicFront::       INCBIN "pic/bmon/zubat.pic"
@@ -724,17 +711,14 @@ ParasPicFront::       INCBIN "pic/bmon/paras.pic"
 ParasPicBack::        INCBIN "pic/monback/parasb.pic"
 PoliwhirlPicFront::   INCBIN "pic/bmon/poliwhirl.pic"
 PoliwhirlPicBack::    INCBIN "pic/monback/poliwhirlb.pic"
-PoliwrathPicFront::   INCBIN "pic/bmon/poliwrath.pic"
-PoliwrathPicBack::    INCBIN "pic/monback/poliwrathb.pic"
 WeedlePicFront::      INCBIN "pic/bmon/weedle.pic"
 WeedlePicBack::       INCBIN "pic/monback/weedleb.pic"
 KakunaPicFront::      INCBIN "pic/bmon/kakuna.pic"
 KakunaPicBack::       INCBIN "pic/monback/kakunab.pic"
-BeedrillPicFront::    INCBIN "pic/bmon/beedrill.pic"
-BeedrillPicBack::     INCBIN "pic/monback/beedrillb.pic"
 
-FossilKabutopsPic::   INCBIN "pic/bmon/fossilkabutops.pic"
-
+FossilKabutopsPic::    INCBIN "pic/bmon/fossilkabutops.pic"
+FossilAerodactylPic::  INCBIN "pic/bmon/fossilaerodactyl.pic"
+GhostPic::             INCBIN "pic/other/ghost.pic"
 
 SECTION "Battle (BANK B)", ROMX
 
@@ -808,10 +792,7 @@ AlakazamPicFront::     INCBIN "pic/bmon/alakazam.pic"
 AlakazamPicBack::      INCBIN "pic/monback/alakazamb.pic"
 PidgeottoPicFront::    INCBIN "pic/bmon/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "pic/monback/pidgeottob.pic"
-PidgeotPicFront::      INCBIN "pic/bmon/pidgeot.pic"
-PidgeotPicBack::       INCBIN "pic/monback/pidgeotb.pic"
-StarmiePicFront::      INCBIN "pic/bmon/starmie.pic"
-StarmiePicBack::       INCBIN "pic/monback/starmieb.pic"
+
 
 RedPicBack::           INCBIN "pic/trainer/redb.pic"
 OldManPic::            INCBIN "pic/trainer/oldman.pic"
@@ -836,9 +817,7 @@ GoldeenPicBack::       INCBIN "pic/monback/goldeenb.pic"
 SeakingPicFront::      INCBIN "pic/bmon/seaking.pic"
 SeakingPicBack::       INCBIN "pic/monback/seakingb.pic"
 PonytaPicFront::       INCBIN "pic/bmon/ponyta.pic"
-RapidashPicFront::     INCBIN "pic/bmon/rapidash.pic"
 PonytaPicBack::        INCBIN "pic/monback/ponytab.pic"
-RapidashPicBack::      INCBIN "pic/monback/rapidashb.pic"
 RattataPicFront::      INCBIN "pic/bmon/rattata.pic"
 RattataPicBack::       INCBIN "pic/monback/rattatab.pic"
 RaticatePicFront::     INCBIN "pic/bmon/raticate.pic"
@@ -865,8 +844,6 @@ WartortlePicFront::    INCBIN "pic/bmon/wartortle.pic"
 WartortlePicBack::     INCBIN "pic/monback/wartortleb.pic"
 CharizardPicFront::    INCBIN "pic/bmon/charizard.pic"
 CharizardPicBack::     INCBIN "pic/monback/charizardb.pic"
-FossilAerodactylPic::  INCBIN "pic/bmon/fossilaerodactyl.pic"
-GhostPic::             INCBIN "pic/other/ghost.pic"
 OddishPicFront::       INCBIN "pic/bmon/oddish.pic"
 OddishPicBack::        INCBIN "pic/monback/oddishb.pic"
 GloomPicFront::        INCBIN "pic/bmon/gloom.pic"
@@ -877,8 +854,53 @@ BellsproutPicFront::   INCBIN "pic/bmon/bellsprout.pic"
 BellsproutPicBack::    INCBIN "pic/monback/bellsproutb.pic"
 WeepinbellPicFront::   INCBIN "pic/bmon/weepinbell.pic"
 WeepinbellPicBack::    INCBIN "pic/monback/weepinbellb.pic"
+
+
+
+SECTION "Pics 6", ROMX ;
+
+MewPicFront::          INCBIN "pic/bmon/mew.pic"
+MewPicBack::           INCBIN "pic/monback/mewb.pic"
+RapidashPicFront::     INCBIN "pic/bmon/rapidash.pic"
+RapidashPicBack::      INCBIN "pic/monback/rapidashb.pic"
+
+SECTION "Pics 7", ROMX ;
+EeveePicFront::       INCBIN "pic/bmon/eevee.pic"
+EeveePicBack::        INCBIN "pic/monback/eeveeb.pic"
+FlareonPicFront::     INCBIN "pic/bmon/flareon.pic"
+FlareonPicBack::      INCBIN "pic/monback/flareonb.pic"
+JolteonPicFront::     INCBIN "pic/bmon/jolteon.pic"
+JolteonPicBack::      INCBIN "pic/monback/jolteonb.pic"
+VaporeonPicFront::    INCBIN "pic/bmon/vaporeon.pic"
+VaporeonPicBack::     INCBIN "pic/monback/vaporeonb.pic"
 VictreebelPicFront::   INCBIN "pic/bmon/victreebel.pic"
 VictreebelPicBack::    INCBIN "pic/monback/victreebelb.pic"
+PidgeotPicFront::      INCBIN "pic/bmon/pidgeot.pic"
+PidgeotPicBack::       INCBIN "pic/monback/pidgeotb.pic"
+
+SECTION "Pics 8", ROMX ;
+
+PoliwrathPicFront::    INCBIN "pic/bmon/poliwrath.pic"
+PoliwrathPicBack::     INCBIN "pic/monback/poliwrathb.pic"
+GengarPicFront::       INCBIN "pic/bmon/gengar.pic"
+GengarPicBack::        INCBIN "pic/monback/gengarb.pic"
+MagmarPicFront::       INCBIN "pic/bmon/magmar.pic"
+MagmarPicBack::        INCBIN "pic/monback/magmarb.pic"
+StarmiePicFront::      INCBIN "pic/bmon/starmie.pic"
+StarmiePicBack::       INCBIN "pic/monback/starmieb.pic"
+BeedrillPicFront::     INCBIN "pic/bmon/beedrill.pic"
+BeedrillPicBack::      INCBIN "pic/monback/beedrillb.pic"
+
+SECTION "bank44",ROMX,BANK[$44]
+
+PartyMonSprites:  INCBIN "gfx/party_mon_sprites1.w32.2bpp"
+
+SECTION "bank45",ROMX,BANK[$45]
+INCBIN "gfx/party_mon_sprites2.w32.2bpp"
+
+INCLUDE "engine/mon_party_sprites2.asm"
+
+
 
 
 SECTION "Battle (BANK D)", ROMX
