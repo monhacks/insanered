@@ -16,7 +16,7 @@ LoadNicknameMonSprite:
 	ret
 
 LoadPartyMonSprites:
-	call DisableLCD
+	;call DisableLCD
 	ld de, vNPCSprites
 	ld hl, wPartySpecies
 .loop
@@ -28,7 +28,8 @@ LoadPartyMonSprites:
 	pop hl
 	jr .loop
 .done
-	jp EnableLCD
+	;jp EnableLCD
+	ret
 
 LoadPartyMonSprite:
 	push de
@@ -56,9 +57,17 @@ LoadPartyMonSprite:
 	ld h, a
 	ld a, BANK(PartyMonSprites)
 .gotBank
-	pop de
-	ld bc, $0080
-	jp FarCopyData
+    ld d, h
+    ld e, l
+    pop hl
+    ld b, a
+    ld c, $08
+    call CopyVideoData
+    ld de, $80
+    add hl, de
+    ld d, h
+    ld e, l
+    ret
 
 PlacePartyMonSprite:
 	push hl
