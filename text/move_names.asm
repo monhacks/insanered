@@ -176,5 +176,8 @@ MoveNames::
 	db "SLUDGE BOMB@"
 	db "EXTREMESPEED@"
 	db "ICICLE SPEAR@"
+	db "POISON FANG@"
+	db "ELECTRO BALL@"
+	db "SCARY FACE@"
 	db "STRUGGLE@"
 

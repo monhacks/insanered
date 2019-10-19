@@ -177,6 +177,9 @@ const_value = 1
 	const SLUDGE_BOMB  ; af
 	const EXTREMESPEED ; b0
 	const ICICLE_SPEAR ; b1
+	const POISON_FANG  ; b2
+	const ELECTRO_BALL ; b3
+	const SCARY_FACE   ; b4
 	
 
 NUM_ATTACKS EQU const_value + -1

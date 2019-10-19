@@ -176,6 +176,9 @@ AttackAnimationPointers:
 	dw SludgeBombAnim
 	dw ExtremeSpeedAnim
 	dw IcicleSpearAnim
+	dw PoisonFangAnim
+	dw ElectroBallAnim
+	dw ScaryFaceAnim
 	dw StruggleAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -1215,6 +1218,21 @@ ExtremeSpeedAnim:
 IcicleSpearAnim:
 	db $02,$1E,$46
 	db $02,$FF,$46
+	db $FF
+
+PoisonFangAnim:	
+	db $06,$9D,$02
+	db $FF
+	
+ElectroBallAnim:
+	db $02,$FF,$08
+	db $FF
+
+ScaryFaceAnim:
+	db SE_DARK_SCREEN_PALETTE, $48
+	db SE_DARK_SCREEN_FLASH, $2A
+	db SE_DARK_SCREEN_FLASH, $2A
+	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 BallTossAnim:
