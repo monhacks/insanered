@@ -179,6 +179,7 @@ AttackAnimationPointers:
 	dw PoisonFangAnim
 	dw ElectroBallAnim
 	dw ScaryFaceAnim
+	dw FeatherDanceAnim
 	dw StruggleAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -1232,6 +1233,12 @@ ScaryFaceAnim:
 	db SE_DARK_SCREEN_PALETTE, $48
 	db SE_DARK_SCREEN_FLASH, $2A
 	db SE_DARK_SCREEN_FLASH, $2A
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+FeatherDanceAnim:
+	db SE_LIGHT_SCREEN_PALETTE, $4F
+	db SE_PETALS_FALLING, $FF
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 

@@ -179,5 +179,6 @@ MoveNames::
 	db "POISON FANG@"
 	db "ELECTRO BALL@"
 	db "SCARY FACE@"
+	db "FEATHERDANCE@"
 	db "STRUGGLE@"
 
