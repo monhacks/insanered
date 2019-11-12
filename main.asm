@@ -191,7 +191,6 @@ INCLUDE "engine/overworld/is_player_just_outside_map.asm"
 INCLUDE "engine/menu/status_screen.asm"
 INCLUDE "engine/menu/party_menu.asm"
 
-RedPicFront:: INCBIN "pic/trainer/red.pic"
 ShrinkPic1::  INCBIN "pic/trainer/shrink1.pic"
 ShrinkPic2::  INCBIN "pic/trainer/shrink2.pic"
 
@@ -784,7 +783,6 @@ PidgeottoPicFront::    INCBIN "pic/bmon/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "pic/monback/pidgeottob.pic"
 
 
-RedPicBack::           INCBIN "pic/trainer/redb.pic"
 OldManPic::            INCBIN "pic/trainer/oldman.pic"
 
 
@@ -891,6 +889,22 @@ StarmiePicFront::      INCBIN "pic/bmon/starmie.pic"
 StarmiePicBack::       INCBIN "pic/monback/starmieb.pic"
 BeedrillPicFront::     INCBIN "pic/bmon/beedrill.pic"
 BeedrillPicBack::      INCBIN "pic/monback/beedrillb.pic"
+
+SECTION "Pics 9", ROMX ;
+
+RedPicBack::  INCBIN "pic/trainer/redb.pic"
+RedPicFront:: INCBIN "pic/trainer/red.pic"
+Rival1Pic::        INCBIN "pic/trainer/rival1.pic"
+ProfOakPic::       INCBIN "pic/trainer/prof.oak.pic"
+
+SECTION "Pics 10", ROMX ;
+
+Rival2Pic::        INCBIN "pic/trainer/rival2.pic"
+LoreleiPic::       INCBIN "pic/trainer/lorelei.pic"
+Rival3Pic::        INCBIN "pic/trainer/rival3.pic"
+
+
+
 
 SECTION "bank44",ROMX,BANK[$44]
 
@@ -1302,8 +1316,6 @@ JugglerPic::       INCBIN "pic/trainer/juggler.pic"
 TamerPic::         INCBIN "pic/trainer/tamer.pic"
 BirdKeeperPic::    INCBIN "pic/trainer/birdkeeper.pic"
 BlackbeltPic::     INCBIN "pic/trainer/blackbelt.pic"
-Rival1Pic::        INCBIN "pic/trainer/rival1.pic"
-ProfOakPic::       INCBIN "pic/trainer/prof.oak.pic"
 ChiefPic::
 ScientistPic::     INCBIN "pic/trainer/scientist.pic"
 GiovanniPic::      INCBIN "pic/trainer/giovanni.pic"
@@ -1319,9 +1331,6 @@ KogaPic::          INCBIN "pic/trainer/koga.pic"
 BlainePic::        INCBIN "pic/trainer/blaine.pic"
 SabrinaPic::       INCBIN "pic/trainer/sabrina.pic"
 GentlemanPic::     INCBIN "pic/trainer/gentleman.pic"
-Rival2Pic::        INCBIN "pic/trainer/rival2.pic"
-Rival3Pic::        INCBIN "pic/trainer/rival3.pic"
-LoreleiPic::       INCBIN "pic/trainer/lorelei.pic"
 ChannelerPic::     INCBIN "pic/trainer/channeler.pic"
 AgathaPic::        INCBIN "pic/trainer/agatha.pic"
 LancePic::         INCBIN "pic/trainer/lance.pic"

@@ -1598,6 +1598,7 @@ wBattleMon:: battle_struct wBattleMon ; d014
 wTrainerClass:: ; d031
 	ds 1
 
+wTrainerPicBank:: ; d032
 	ds 1
 
 wTrainerPicPointer:: ; d033
