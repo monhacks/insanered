@@ -12,10 +12,10 @@ INCBIN "pic/bmon/gastly.pic",0,1 ; 77, sprite dimensions
 dw GastlyPicFront
 dw GastlyPicBack
 ; attacks known at lvl 0
-db LICK
-db CONFUSE_RAY
+db HYPNOSIS
+db SHADOW_BALL
 db NIGHT_SHADE
-db 0
+db CONFUSE_RAY
 db 3 ; growth rate
 ; learnset
 	tmlearn 6

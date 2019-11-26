@@ -12,10 +12,10 @@ INCBIN "pic/bmon/jynx.pic",0,1 ; 66, sprite dimensions
 dw JynxPicFront
 dw JynxPicBack
 ; attacks known at lvl 0
-db POUND
 db LOVELY_KISS
-db 0
-db 0
+db BLIZZARD
+db PSYCHIC_M
+db BODY_SLAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

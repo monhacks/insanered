@@ -12,7 +12,7 @@ INCBIN "pic/bmon/horsea.pic",0,1 ; 55, sprite dimensions
 dw HorseaPicFront
 dw HorseaPicBack
 ; attacks known at lvl 0
-db BUBBLE
+db OCTAZOOKA
 db 0
 db 0
 db 0

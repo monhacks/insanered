@@ -12,10 +12,10 @@ INCBIN "pic/bmon/blastoise.pic",0,1 ; 77, sprite dimensions
 dw BlastoisePicFront
 dw BlastoisePicBack
 ; attacks known at lvl 0
-db TACKLE
-db TAIL_WHIP
-db BUBBLE
-db WATER_GUN
+db BODY_SLAM
+db EARTHQUAKE
+db HYDRO_PUMP
+db BLIZZARD
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

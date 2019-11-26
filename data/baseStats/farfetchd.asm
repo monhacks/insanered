@@ -12,10 +12,10 @@ INCBIN "pic/bmon/farfetchd.pic",0,1 ; 66, sprite dimensions
 dw FarfetchdPicFront
 dw FarfetchdPicBack
 ; attacks known at lvl 0
-db PECK
-db SAND_ATTACK
-db 0
-db 0
+db SWORDS_DANCE
+db FURY_ATTACK
+db SLASH
+db RAZOR_WIND
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,3,4,6,8

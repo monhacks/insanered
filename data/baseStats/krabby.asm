@@ -12,8 +12,8 @@ INCBIN "pic/bmon/krabby.pic",0,1 ; 55, sprite dimensions
 dw KrabbyPicFront
 dw KrabbyPicBack
 ; attacks known at lvl 0
-db BUBBLE
-db LEER
+db BUBBLEBEAM
+db VICEGRIP
 db 0
 db 0
 db 0 ; growth rate

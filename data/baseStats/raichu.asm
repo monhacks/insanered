@@ -12,10 +12,10 @@ INCBIN "pic/bmon/raichu.pic",0,1 ; 77, sprite dimensions
 dw RaichuPicFront
 dw RaichuPicBack
 ; attacks known at lvl 0
-db THUNDERSHOCK
-db GROWL
+db VOLT_TACKLE
 db THUNDER_WAVE
-db 0
+db MEGA_KICK
+db SURF
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

@@ -12,10 +12,10 @@ INCBIN "pic/bmon/flareon.pic",0,1 ; 66, sprite dimensions
 dw FlareonPicFront
 dw FlareonPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SAND_ATTACK
-db QUICK_ATTACK
-db EMBER
+db FIRE_BLAST
+db SHADOW_BALL
+db BODY_SLAM
+db SOLARBEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

@@ -12,10 +12,10 @@ INCBIN "pic/bmon/hitmonchan.pic",0,1 ; 66, sprite dimensions
 dw HitmonchanPicFront
 dw HitmonchanPicBack
 ; attacks known at lvl 0
-db COMET_PUNCH
-db AGILITY
-db 0
-db 0
+db BODY_SLAM
+db SUBMISSION
+db SEISMIC_TOSS
+db DOUBLE_TEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

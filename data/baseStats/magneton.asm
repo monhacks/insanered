@@ -12,10 +12,10 @@ INCBIN "pic/bmon/magneton.pic",0,1 ; 66, sprite dimensions
 dw MagnetonPicFront
 dw MagnetonPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SONICBOOM
-db THUNDERSHOCK
-db 0
+db ELECTRO_BALL
+db THUNDER_WAVE
+db TRI_ATTACK
+db DOUBLE_TEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 6
@@ -23,6 +23,6 @@ db 0 ; growth rate
 	tmlearn 20,24
 	tmlearn 25,30,31,32
 	tmlearn 33,34,39
-	tmlearn 44,45
+	tmlearn 44,45,49
 	tmlearn 50,55
 db BANK(MagnetonPicFront)

@@ -12,10 +12,10 @@ INCBIN "pic/bmon/golduck.pic",0,1 ; 77, sprite dimensions
 dw GolduckPicFront
 dw GolduckPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db TAIL_WHIP
-db DISABLE
-db 0
+db HYDRO_PUMP
+db BODY_SLAM
+db PSYCHIC_M
+db HYPNOSIS
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

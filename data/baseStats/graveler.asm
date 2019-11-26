@@ -12,10 +12,10 @@ INCBIN "pic/bmon/graveler.pic",0,1 ; 66, sprite dimensions
 dw GravelerPicFront
 dw GravelerPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DEFENSE_CURL
-db 0
-db 0
+db TAKE_DOWN
+db ROCK_SLIDE
+db EARTHQUAKE
+db SELFDESTRUCT
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,6,8

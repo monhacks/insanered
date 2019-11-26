@@ -12,10 +12,10 @@ INCBIN "pic/bmon/kangaskhan.pic",0,1 ; 77, sprite dimensions
 dw KangaskhanPicFront
 dw KangaskhanPicBack
 ; attacks known at lvl 0
-db COMET_PUNCH
-db RAGE
-db 0
-db 0
+db EARTHQUAKE
+db BODY_SLAM
+db BLIZZARD
+db THUNDERBOLT
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

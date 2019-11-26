@@ -13,9 +13,9 @@ dw BeedrillPicFront
 dw BeedrillPicBack
 ; attacks known at lvl 0
 db FURY_ATTACK
-db 0
-db 0
-db 0
+db TWINEEDLE
+db POISON_STING
+db FOCUS_ENERGY
 db 0 ; growth rate
 ; learnset
 	tmlearn 3,6

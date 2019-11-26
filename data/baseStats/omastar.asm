@@ -12,10 +12,10 @@ INCBIN "pic/bmon/omastar.pic",0,1 ; 66, sprite dimensions
 dw OmastarPicFront
 dw OmastarPicBack
 ; attacks known at lvl 0
-db WATER_GUN
-db WITHDRAW
-db HORN_ATTACK
-db 0
+db BODY_SLAM
+db SUBMISSION
+db BLIZZARD
+db HYDRO_PUMP
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,7,8

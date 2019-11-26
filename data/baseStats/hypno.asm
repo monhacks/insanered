@@ -12,10 +12,10 @@ INCBIN "pic/bmon/hypno.pic",0,1 ; 77, sprite dimensions
 dw HypnoPicFront
 dw HypnoPicBack
 ; attacks known at lvl 0
-db POUND
+db THUNDER_WAVE
 db HYPNOSIS
-db DISABLE
-db CONFUSION
+db PSYCHIC_M
+db MEGA_KICK
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

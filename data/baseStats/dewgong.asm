@@ -12,10 +12,10 @@ INCBIN "pic/bmon/dewgong.pic",0,1 ; 66, sprite dimensions
 dw DewgongPicFront
 dw DewgongPicBack
 ; attacks known at lvl 0
-db HEADBUTT
-db GROWL
-db AURORA_BEAM
-db 0
+db BLIZZARD
+db OCTAZOOKA
+db BODY_SLAM
+db HORN_DRILL
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,7,8

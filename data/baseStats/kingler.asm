@@ -12,10 +12,10 @@ INCBIN "pic/bmon/kingler.pic",0,1 ; 77, sprite dimensions
 dw KinglerPicFront
 dw KinglerPicBack
 ; attacks known at lvl 0
-db BUBBLE
-db LEER
-db VICEGRIP
-db 0
+db CRABHAMMER
+db BODY_SLAM
+db GUILLOTINE
+db BLIZZARD
 db 0 ; growth rate
 ; learnset
 	tmlearn 3,6,8

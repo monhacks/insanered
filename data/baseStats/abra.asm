@@ -12,8 +12,8 @@ INCBIN "pic/bmon/abra.pic",0,1 ; 55, sprite dimensions
 dw AbraPicFront
 dw AbraPicBack
 ; attacks known at lvl 0
-db TELEPORT
-db 0
+db PSYBEAM
+db KINESIS
 db 0
 db 0
 db 3 ; growth rate

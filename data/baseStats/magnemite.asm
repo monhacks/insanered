@@ -12,10 +12,10 @@ INCBIN "pic/bmon/magnemite.pic",0,1 ; 55, sprite dimensions
 dw MagnemitePicFront
 dw MagnemitePicBack
 ; attacks known at lvl 0
-db TACKLE
-db 0
-db 0
-db 0
+db THUNDERBOLT
+db THUNDER_WAVE
+db SONICBOOM
+db SUPERSONIC
 db 0 ; growth rate
 ; learnset
 	tmlearn 6

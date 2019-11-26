@@ -12,10 +12,10 @@ INCBIN "pic/bmon/kabuto.pic",0,1 ; 55, sprite dimensions
 dw KabutoPicFront
 dw KabutoPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db HARDEN
-db 0
-db 0
+db OCTAZOOKA
+db ICE_BEAM
+db SLASH
+db GIGA_DRAIN
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

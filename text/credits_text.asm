@@ -66,10 +66,10 @@ CreditsTextPointers:
 
 CredVersion: ; this 1 byte difference makes all bank addresses offset by 1 in the blue version
 IF DEF(_RED)
-	db -8, "RED VERSION STAFF@"
+	db -8, "INSANE RED STAFF@"
 ENDC
 IF DEF(_BLUE)
-	db -8, "BLUE VERSION STAFF@"
+	db -8, "INSANE BLUE STAFF@"
 ENDC
 CredTajiri:
 	db -6, "SATOSHI TAJIRI@"

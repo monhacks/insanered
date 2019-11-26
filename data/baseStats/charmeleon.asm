@@ -12,10 +12,10 @@ INCBIN "pic/bmon/charmeleon.pic",0,1 ; 66, sprite dimensions
 dw CharmeleonPicFront
 dw CharmeleonPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db GROWL
-db EMBER
-db 0
+db DRAGONBREATH
+db FLAMETHROWER
+db SLASH
+db DIG
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,3,5,6,8

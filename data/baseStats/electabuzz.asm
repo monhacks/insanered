@@ -12,10 +12,10 @@ INCBIN "pic/bmon/electabuzz.pic",0,1 ; 66, sprite dimensions
 dw ElectabuzzPicFront
 dw ElectabuzzPicBack
 ; attacks known at lvl 0
-db QUICK_ATTACK
-db LEER
-db 0
-db 0
+db ELECTRO_BALL
+db THUNDER_WAVE
+db ICE_PUNCH
+db PSYCHIC_M
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

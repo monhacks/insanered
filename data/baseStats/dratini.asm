@@ -12,10 +12,10 @@ INCBIN "pic/bmon/dratini.pic",0,1 ; 55, sprite dimensions
 dw DratiniPicFront
 dw DratiniPicBack
 ; attacks known at lvl 0
+db THUNDER_WAVE
+db DRAGONBREATH
 db WRAP
-db LEER
-db 0
-db 0
+db ICE_BEAM
 db 5 ; growth rate
 ; learnset
 	tmlearn 6,8

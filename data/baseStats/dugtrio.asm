@@ -12,10 +12,10 @@ INCBIN "pic/bmon/dugtrio.pic",0,1 ; 66, sprite dimensions
 dw DugtrioPicFront
 dw DugtrioPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db GROWL
-db DIG
-db 0
+db EARTHQUAKE
+db ROCK_SLIDE
+db BODY_SLAM
+db SLUDGE_BOMB
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

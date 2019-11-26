@@ -12,10 +12,10 @@ INCBIN "pic/bmon/butterfree.pic",0,1 ; 77, sprite dimensions
 dw ButterfreePicFront
 dw ButterfreePicBack
 ; attacks known at lvl 0
+db SLEEP_POWDER
+db STUN_SPORE
 db CONFUSION
-db 0
-db 0
-db 0
+db MEGA_DRAIN
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,4,6

@@ -13,9 +13,9 @@ dw ArbokPicFront
 dw ArbokPicBack
 ; attacks known at lvl 0
 db WRAP
-db LEER
-db POISON_STING
-db 0
+db GLARE
+db EARTHQUAKE
+db SLUDGE_BOMB
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

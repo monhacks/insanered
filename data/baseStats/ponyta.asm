@@ -13,9 +13,9 @@ dw PonytaPicFront
 dw PonytaPicBack
 ; attacks known at lvl 0
 db EMBER
-db 0
-db 0
-db 0
+db DOUBLE_KICK
+db STOMP
+db HYPNOSIS
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,7,8

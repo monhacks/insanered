@@ -12,10 +12,10 @@ INCBIN "pic/bmon/grimer.pic",0,1 ; 55, sprite dimensions
 dw GrimerPicFront
 dw GrimerPicBack
 ; attacks known at lvl 0
-db POUND
-db DISABLE
-db 0
-db 0
+db MINIMIZE
+db SLUDGE
+db BODY_SLAM
+db TOXIC
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

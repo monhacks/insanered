@@ -12,10 +12,10 @@ INCBIN "pic/bmon/chansey.pic",0,1 ; 66, sprite dimensions
 dw ChanseyPicFront
 dw ChanseyPicBack
 ; attacks known at lvl 0
-db POUND
-db DOUBLESLAP
-db 0
-db 0
+db SOFTBOILED
+db THUNDERBOLT
+db ICE_BEAM
+db THUNDER_WAVE
 db 4 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

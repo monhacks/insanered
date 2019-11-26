@@ -12,10 +12,10 @@ INCBIN "pic/bmon/parasect.pic",0,1 ; 77, sprite dimensions
 dw ParasectPicFront
 dw ParasectPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db STUN_SPORE
-db LEECH_LIFE
-db 0
+db GIGA_DRAIN
+db SPORE
+db SLASH
+db FURY_CUTTER
 db 0 ; growth rate
 ; learnset
 	tmlearn 3,6,8

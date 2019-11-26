@@ -4,7 +4,7 @@ TechnicalMachines:
 	db SWORDS_DANCE
 	db WHIRLWIND
 	db MEGA_KICK
-	db TOXIC
+	db SLUDGE_BOMB
 	db HORN_DRILL
 	db BODY_SLAM
 	db TAKE_DOWN
@@ -22,8 +22,8 @@ TechnicalMachines:
 	db GIGA_DRAIN
 	db SOLARBEAM
 	db DRAGONBREATH
-	db THUNDERBOLT
-	db THUNDER
+	db VOLT_TACKLE
+	db ELECTRO_BALL
 	db EARTHQUAKE
 	db FISSURE
 	db DIG
@@ -41,7 +41,7 @@ TechnicalMachines:
 	db SKULL_BASH
 	db SOFTBOILED
 	db DREAM_EATER
-	db SKY_ATTACK
+	db AEROBLAST
 	db REST
 	db THUNDER_WAVE
 	db PSYWAVE

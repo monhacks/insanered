@@ -13,9 +13,9 @@ dw GoldeenPicFront
 dw GoldeenPicBack
 ; attacks known at lvl 0
 db PECK
-db TAIL_WHIP
-db 0
-db 0
+db OCTAZOOKA
+db SUPERSONIC
+db ICE_BEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,7

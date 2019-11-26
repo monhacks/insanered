@@ -12,10 +12,10 @@ INCBIN "pic/bmon/golem.pic",0,1 ; 66, sprite dimensions
 dw GolemPicFront
 dw GolemPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DEFENSE_CURL
-db 0
-db 0
+db BODY_SLAM
+db EARTHQUAKE
+db ROCK_SLIDE
+db EXPLOSION
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

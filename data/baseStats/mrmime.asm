@@ -12,10 +12,10 @@ INCBIN "pic/bmon/mr.mime.pic",0,1 ; 66, sprite dimensions
 dw MrMimePicFront
 dw MrMimePicBack
 ; attacks known at lvl 0
-db CONFUSION
-db BARRIER
-db 0
-db 0
+db PSYCHIC_M
+db HYPNOSIS
+db THUNDERBOLT
+db THUNDER_WAVE
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
