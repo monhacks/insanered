@@ -12,10 +12,10 @@ INCBIN "pic/bmon/staryu.pic",0,1 ; 66, sprite dimensions
 dw StaryuPicFront
 dw StaryuPicBack
 ; attacks known at lvl 0
-db TACKLE
-db 0
-db 0
-db 0
+db RECOVER
+db OCTAZOOKA
+db ICE_BEAM
+db THUNDERBOLT
 db 5 ; growth rate
 ; learnset
 	tmlearn 6

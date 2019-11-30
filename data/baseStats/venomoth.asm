@@ -12,10 +12,10 @@ INCBIN "pic/bmon/venomoth.pic",0,1 ; 77, sprite dimensions
 dw VenomothPicFront
 dw VenomothPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DISABLE
-db POISONPOWDER
-db LEECH_LIFE
+db PSYCHIC_M
+db SOLARBEAM
+db SLEEP_POWDER
+db SLUDGE_BOMB
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,4,6

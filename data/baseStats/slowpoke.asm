@@ -13,9 +13,9 @@ dw SlowpokePicFront
 dw SlowpokePicBack
 ; attacks known at lvl 0
 db CONFUSION
-db 0
-db 0
-db 0
+db BUBBLEBEAM
+db HEADBUTT
+db THUNDER_WAVE
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

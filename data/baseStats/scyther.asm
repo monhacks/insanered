@@ -12,10 +12,10 @@ INCBIN "pic/bmon/scyther.pic",0,1 ; 77, sprite dimensions
 dw ScytherPicFront
 dw ScytherPicBack
 ; attacks known at lvl 0
-db QUICK_ATTACK
-db 0
-db 0
-db 0
+db SWORDS_DANCE
+db FURY_CUTTER
+db WING_ATTACK
+db SLASH
 db 0 ; growth rate
 ; learnset
 	tmlearn 3,6

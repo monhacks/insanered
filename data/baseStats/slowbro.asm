@@ -12,10 +12,10 @@ INCBIN "pic/bmon/slowbro.pic",0,1 ; 77, sprite dimensions
 dw SlowbroPicFront
 dw SlowbroPicBack
 ; attacks known at lvl 0
-db CONFUSION
-db DISABLE
-db HEADBUTT
-db 0
+db THUNDER_WAVE
+db SURF
+db BLIZZARD
+db PSYCHIC_M
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

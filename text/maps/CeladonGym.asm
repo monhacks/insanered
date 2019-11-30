@@ -71,7 +71,7 @@ _TM21ExplanationText::
 	text ""
 
 	para "TM21 contains"
-	line "MEGA DRAIN."
+	line "GIGA DRAIN."
 
 	para "Half the damage"
 	line "it inflicts is"

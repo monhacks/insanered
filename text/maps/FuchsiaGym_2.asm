@@ -1,9 +1,8 @@
 _KogaExplainToxicText::
 	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	line "SLUDGE BOMB"
+	cont "Your #MON will"
+	cont "suffer to hell!"
 
 	para "It will surely"
 	line "terrorize foes!"

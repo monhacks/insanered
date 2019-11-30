@@ -33,7 +33,7 @@ _TM24ExplanationText::
 	text ""
 
 	para "TM24 contains"
-	line "THUNDERBOLT!"
+	line "VOLT TACKLE!"
 
 	para "Teach it to an"
 	line "electric #MON!"

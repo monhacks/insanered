@@ -12,10 +12,10 @@ INCBIN "pic/bmon/weezing.pic",0,1 ; 77, sprite dimensions
 dw WeezingPicFront
 dw WeezingPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SMOG
-db SLUDGE
-db 0
+db SLUDGE_BOMB
+db THUNDERBOLT
+db FIRE_BLAST
+db EXPLOSION
 db 0 ; growth rate
 ; learnset
 	tmlearn 6

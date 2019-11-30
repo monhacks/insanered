@@ -126,18 +126,18 @@ ReadTrainer:
 .ChampionRival ; give moves to his team
 
 ; pidgeot
-	ld a, SKY_ATTACK
+	ld a, BLIZZARD
 	ld [wEnemyMon1Moves + 2], a
 
 ; starter
 	ld a, [wRivalStarter]
 	cp STARTER3
-	ld b, MEGA_DRAIN
+	ld b, THUNDERBOLT
 	jr z, .GiveStarterMove
 	cp STARTER1
-	ld b, FIRE_BLAST
+	ld b, THUNDERBOLT
 	jr z, .GiveStarterMove
-	ld b, BLIZZARD ; must be squirtle
+	ld b, THUNDERBOLT ; must be squirtle
 .GiveStarterMove
 	ld a, b
 	ld [wEnemyMon6Moves + 2], a

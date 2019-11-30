@@ -446,8 +446,8 @@ ShellderEvosMoves:
 	db 0
 ; Learnset
 	db 18, TRI_ATTACK
-	db 23, CLAMP
-	db 30, CLAMP
+	db 23, SURF
+	db 30, SURF
 	db 39, ICICLE_SPEAR
 	db 50, ICICLE_SPEAR
 	db 0
@@ -1316,7 +1316,7 @@ ZubatEvosMoves:
 	db 12, BITE
 	db 14, CONFUSE_RAY
 	db 18, HYPNOSIS
-	db 21, POISON_FANG
+	db 21, HYPNOSIS
 	db 0
 
 EkansEvosMoves:
@@ -1436,8 +1436,8 @@ VenomothEvosMoves:
 ; Learnset
 	db 24, PSYCHIC_M
 	db 27, PSYCHIC_M
-	db 30, STUN_SPORE
-	db 38, STUN_SPORE
+	db 30, SOLARBEAM
+	db 38, SOLARBEAM
 	db 43, SLEEP_POWDER
 	db 50, SLEEP_POWDER
 	db 0
