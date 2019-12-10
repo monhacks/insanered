@@ -1,11 +1,15 @@
 _PewterCityText1::
-	text "It's rumored that"
-	line "CLEFAIRYs came"
-	cont "from the moon!"
+	text "A guy from ITALY"
+	line "came to KANTO to"
+	cont "have a challenge"
+	cont "against the ELITE"
+	cont "FOUR!"
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "His real name is"
+	line "Dersu, but a lot"
+	cont "of people refer"
+	cont "to him as DRAKE"
+	cont "SEAWOOD!"
 	done
 
 _PewterCityText2::

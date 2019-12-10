@@ -17,22 +17,24 @@ _OakWalksUpText::
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "Are you playing"
+	line "in Nuzlocke mode!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "If yes, then all"
+	line "the best of luck"
+	cont "for you!"
 	done
 
 _PalletTownText3::
-	text "Technology is"
-	line "incredible!"
+	text "#MON ORIGINS is"
+	line "an awesome show!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "The best part was"
+	line "when RED defeated"
+	cont "rival BLUE and"
+	cont "became the victor"
+	cont "of the #MON"
+	cont "LEAGUE!"
 	done
 
 _PalletTownText4::

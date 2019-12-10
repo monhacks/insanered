@@ -18,7 +18,7 @@ db BODY_SLAM
 db HORN_DRILL
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,7,8
+	tmlearn 7,8
 	tmlearn 9,10,11,12,13,14,15,16
 	tmlearn 20
 	tmlearn 31,32

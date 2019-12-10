@@ -18,7 +18,7 @@ db BLIZZARD
 db RAZOR_WIND
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,6,7,8
+	tmlearn 2,7,8
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 20,23,24
 	tmlearn 25,31,32

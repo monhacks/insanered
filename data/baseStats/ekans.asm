@@ -14,8 +14,8 @@ dw EkansPicBack
 ; attacks known at lvl 0
 db WRAP
 db GLARE
-db 0
-db 0
+db ACID
+db BITE
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

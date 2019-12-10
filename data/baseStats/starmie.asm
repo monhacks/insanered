@@ -18,7 +18,7 @@ db THUNDERBOLT
 db RECOVER
 db 5 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 20,24
 	tmlearn 25,29,30,31,32

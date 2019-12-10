@@ -1,11 +1,11 @@
 _KogaExplainToxicText::
 	text "When afflicted by"
-	line "SLUDGE BOMB"
+	line "SLUDGE BOMB!"
 	cont "Your #MON will"
 	cont "suffer to hell!"
 
 	para "It will surely"
-	line "terrorize foes!"
+	line "poison the foe!"
 	done
 
 _FuchsiaGymText9::
@@ -32,11 +32,11 @@ _ReceivedTM06Text::
 _TM06ExplanationText::
 	text ""
 	para "TM06 contains"
-	line "TOXIC!"
+	line "SLUDGE BOMB!"
 
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	para "It is a new move"
+	line "introduced in the"
+	cont "world of JOHTO!"
 	done
 
 _TM06NoRoomText::

@@ -1,10 +1,9 @@
 _VermilionCityText1::
-	text "We're careful"
-	line "about pollution!"
-
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	text "DANNY-E 33 and"
+	line "CRYSTAL helped"
+	cont "SHAKIB FIROUZI to"
+	cont "make this awesome"
+	cont "hack!"
 	done
 
 _VermilionCityText_198a7::

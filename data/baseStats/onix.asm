@@ -18,7 +18,7 @@ db ROCK_SLIDE
 db BODY_SLAM
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
+	tmlearn 8
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 26,27,28,31,32

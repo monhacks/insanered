@@ -18,7 +18,7 @@ db TRI_ATTACK
 db DOUBLE_TEAM
 db 0 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9,10,15
 	tmlearn 20,24
 	tmlearn 25,30,31,32

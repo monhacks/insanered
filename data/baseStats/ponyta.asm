@@ -18,7 +18,7 @@ db STOMP
 db HYPNOSIS
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,7,8
+	tmlearn 7,8
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32

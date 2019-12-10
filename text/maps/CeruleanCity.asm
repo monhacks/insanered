@@ -105,12 +105,14 @@ _CeruleanCityText3::
 	done
 
 _CeruleanCityText4::
-	text "That bush in"
-	line "front of the shop"
-	cont "is in the way."
+	text "Some girl by the"
+	line "name of RIDLEY"
+	cont "defeated me."
 
-	para "There might be a"
-	line "way around."
+	para "She told me that"
+	line "veganism is the"
+	cont "key of living a"
+	cont "happy life!"
 	done
 
 _CeruleanCityText5::

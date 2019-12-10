@@ -107,24 +107,28 @@ _Route11AfterBattleText7::
 	done
 
 _Route11BattleText8::
-	text "I'm the best in"
-	line "my class!"
+	text "DRAKE: I'm Dersu"
+	line "aka DRAKE SEAWOOD!"
+	
+	para "I have come from"
+	line "ITALY to win the"
+	cont "#MON LEAGUE!"
 	done
 
 _Route11EndBattleText8::
-	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	text "Hey!"
+	line "That was such a"
+	cont "fun battle!"
 	prompt
 
 _Route11AfterBattleText8::
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
-
-	para "It's strong if"
-	line "you can get it."
+	text "I have lost the"
+	line "match so be it!"
+	
+	para "Keep working hard"
+	line "and do not let"
+	cont "anyone block your"
+	cont "path!"
 	done
 
 _Route11BattleText9::

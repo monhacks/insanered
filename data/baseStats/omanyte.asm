@@ -18,7 +18,7 @@ db TAKE_DOWN
 db DOUBLE_TEAM
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
+	tmlearn 8
 	tmlearn 9,10,11,12,13,14
 	tmlearn 20
 	tmlearn 31,32

@@ -1226,7 +1226,8 @@ PoisonFangAnim:
 	db $FF
 	
 ElectroBallAnim:
-	db $02,$FF,$08
+	db $43,$8B,$41
+	db $05,$FF,$55
 	db $FF
 
 ScaryFaceAnim:

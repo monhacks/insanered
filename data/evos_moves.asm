@@ -1324,11 +1324,11 @@ EkansEvosMoves:
 	db EV_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
-	db 12, ACID
-	db 14, BITE
-	db 18, SCREECH
-	db 22, POISON_FANG
-	db 25, POISON_FANG
+	db 12, WRAP
+	db 14, WRAP
+	db 18, GLARE
+	db 22, ACID
+	db 25, BITE
 	db 0
 
 ParasEvosMoves:

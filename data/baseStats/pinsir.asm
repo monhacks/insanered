@@ -18,7 +18,7 @@ db BODY_SLAM
 db GUILLOTINE
 db 5 ; growth rate
 ; learnset
-	tmlearn 3,6,8
+	tmlearn 3,8
 	tmlearn 9,10,15
 	tmlearn 17,19,20
 	tmlearn 31,32

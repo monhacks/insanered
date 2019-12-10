@@ -18,7 +18,7 @@ db DIG
 db ROCK_SLIDE
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10,15,16
 	tmlearn 17,18,19,20,24
 	tmlearn 25,28,31,32

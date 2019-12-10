@@ -18,7 +18,7 @@ db ICICLE_SPEAR
 db SUPERSONIC
 db 5 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9,10,11,12,13,14
 	tmlearn 20
 	tmlearn 30,31,32

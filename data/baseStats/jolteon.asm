@@ -18,7 +18,7 @@ db DOUBLE_KICK
 db PIN_MISSILE
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
+	tmlearn 8
 	tmlearn 9,10,15
 	tmlearn 20,24
 	tmlearn 25,31,32

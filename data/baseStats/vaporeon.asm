@@ -18,7 +18,7 @@ db BODY_SLAM
 db SHADOW_BALL
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
+	tmlearn 8
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 20
 	tmlearn 31,32

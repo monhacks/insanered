@@ -2109,6 +2109,8 @@ INCLUDE "engine/overworld/hidden_items.asm"
 
 INCLUDE "engine/overworld/elevator.asm"
 
+INCLUDE "engine/items/tm_prices.asm"
+
 
 SECTION "bank1E", ROMX
 
@@ -2126,5 +2128,3 @@ RedFishingRodTiles:   INCBIN "gfx/red_fishingrod_tiles.2bpp"
 INCLUDE "data/animations.asm"
 
 INCLUDE "engine/evolution.asm"
-
-INCLUDE "engine/items/tm_prices.asm"
