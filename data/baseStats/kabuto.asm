@@ -1,9 +1,9 @@
 db DEX_KABUTO ; pokedex id
-db 30 ; base hp
-db 80 ; base attack
+db 40 ; base hp
+db 85 ; base attack
 db 90 ; base defense
 db 55 ; base speed
-db 45 ; base special
+db 50 ; base special
 db ROCK ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate

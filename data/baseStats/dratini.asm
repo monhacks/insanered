@@ -1,13 +1,13 @@
 db DEX_DRATINI ; pokedex id
 db 41 ; base hp
-db 64 ; base attack
-db 45 ; base defense
+db 74 ; base attack
+db 50 ; base defense
 db 50 ; base speed
-db 50 ; base special
+db 65 ; base special
 db DRAGON ; species type 1
 db DRAGON ; species type 2
 db 45 ; catch rate
-db 67 ; base exp yield
+db 85 ; base exp yield
 INCBIN "pic/bmon/dratini.pic",0,1 ; 55, sprite dimensions
 dw DratiniPicFront
 dw DratiniPicBack

@@ -1,9 +1,9 @@
 db DEX_NIDOKING ; pokedex id
 db 81 ; base hp
-db 92 ; base attack
-db 77 ; base defense
+db 97 ; base attack
+db 82 ; base defense
 db 85 ; base speed
-db 75 ; base special
+db 80 ; base special
 db POISON ; species type 1
 db GROUND ; species type 2
 db 45 ; catch rate

@@ -1,9 +1,9 @@
 db DEX_GYARADOS ; pokedex id
 db 95 ; base hp
-db 125 ; base attack
-db 79 ; base defense
-db 81 ; base speed
-db 100 ; base special
+db 126 ; base attack
+db 81 ; base defense
+db 82 ; base speed
+db 101 ; base special
 db WATER ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate

@@ -46,9 +46,10 @@ _VictoryRoad3AfterBattleText4::
 	done
 
 _VictoryRoad3BattleText5::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "Did you know that"
+	line "a GYM LEADER from"
+	cont "JOHTO leads the"
+	cont "ELITE FOUR!"
 	done
 
 _VictoryRoad3EndBattleText5::
@@ -57,7 +58,6 @@ _VictoryRoad3EndBattleText5::
 	prompt
 
 _VictoryRoad3AfterBattleText5::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "I'm pretty sure her"
+	line "name was CLAIR!"
 	done

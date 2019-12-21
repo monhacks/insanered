@@ -187,23 +187,24 @@ _SilphCo7Text_51ed2::
 	para "I'm moving on up"
 	line "and ahead!"
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
-
 	para "I'm going to the"
-	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	line "#MON LEAGUE to"
+	cont "win it and become"
+	cont "the best #MON"
+	cont "trainer!"
 
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
+	para "By the way, I met"
+	line "JOSH MOON, a"
+	cont "very good trainer"
+	cont "with whom I had a"
+	cont "battle."
 
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	para "Hm? How it ended?"
+	line "I don't even have"
+	cont "to tell you!"
+	
+	para "Smell ya later,"
+	line "<PLAYER>!"
+	
+	para "Best of luck!"
 	done

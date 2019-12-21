@@ -1,9 +1,9 @@
 db DEX_MACHAMP ; pokedex id
-db 90 ; base hp
-db 130 ; base attack
-db 80 ; base defense
-db 55 ; base speed
-db 65 ; base special
+db 91 ; base hp
+db 131 ; base attack
+db 86 ; base defense
+db 56 ; base speed
+db 86 ; base special
 db FIGHTING ; species type 1
 db FIGHTING ; species type 2
 db 45 ; catch rate

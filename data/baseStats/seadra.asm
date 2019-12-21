@@ -1,7 +1,7 @@
 db DEX_SEADRA ; pokedex id
-db 55 ; base hp
-db 65 ; base attack
-db 95 ; base defense
+db 79 ; base hp
+db 101 ; base attack
+db 90 ; base defense
 db 85 ; base speed
 db 95 ; base special
 db WATER ; species type 1

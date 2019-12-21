@@ -1,7 +1,7 @@
 db DEX_KADABRA ; pokedex id
-db 40 ; base hp
+db 45 ; base hp
 db 35 ; base attack
-db 30 ; base defense
+db 45 ; base defense
 db 105 ; base speed
 db 120 ; base special
 db PSYCHIC ; species type 1

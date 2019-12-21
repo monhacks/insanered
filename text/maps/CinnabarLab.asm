@@ -1,10 +1,8 @@
 _Lab1Text1::
-	text "We study #MON"
-	line "extensively here."
-
-	para "People often bring"
-	line "us rare #MON"
-	cont "for examination."
+	text "BULBAPEDIA is a"
+	line "good website for"
+	cont "being up to date"
+	cont "on #MON events!"
 	done
 
 _Lab1Text2::

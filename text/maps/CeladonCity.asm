@@ -1,10 +1,10 @@
 _CeladonCityText1::
-	text "I got my KOFFING"
-	line "in CINNABAR!"
+	text "Time ago, a battle"
+	line "between RIDLEY"
+	cont "and ERIKA took"
+	cont "place at the GYM."
 
-	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
+	para "She barely won."
 	done
 
 _CeladonCityText2::

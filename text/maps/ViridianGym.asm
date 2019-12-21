@@ -82,20 +82,33 @@ _TM27NoRoomText::
 	done
 
 _ViridianGymBattleText1::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "JOSH: Hello my"
+	line "name is Josh Moon"
+	cont "and I am the"
+	cont "Korean #MON"
+	cont "Master!"
+	
+	para "Your #MON will"
+	line "fucking lose as"
+	cont "soon as I show"
+	cont "you my true power!"
 	done
 
 _ViridianGymEndBattleText1::
-	text "I"
-	line "ran out of gas!"
+	text "Oh"
+	line "no you have beat"
+	cont "me!"
 	prompt
 
 _ViridianGymAfterBattleText1::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "You do not stand a"
+	line "chance against"
+	cont "the GYM LEADER"
+	cont "GIOVANNI!"
+	
+	para "Be careful because"
+	line "his last #MON"
+	cont "is a big surprise!"
 	done
 
 _ViridianGymBattleText2::

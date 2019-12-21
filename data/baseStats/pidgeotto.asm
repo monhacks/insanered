@@ -1,8 +1,8 @@
 db DEX_PIDGEOTTO ; pokedex id
 db 63 ; base hp
-db 60 ; base attack
+db 75 ; base attack
 db 55 ; base defense
-db 71 ; base speed
+db 81 ; base speed
 db 50 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2

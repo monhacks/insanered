@@ -1,9 +1,9 @@
 db DEX_GOLBAT ; pokedex id
-db 75 ; base hp
-db 80 ; base attack
-db 70 ; base defense
-db 90 ; base speed
-db 75 ; base special
+db 85 ; base hp
+db 90 ; base attack
+db 80 ; base defense
+db 110 ; base speed
+db 80 ; base special
 db POISON ; species type 1
 db FLYING ; species type 2
 db 90 ; catch rate

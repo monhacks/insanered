@@ -1,7 +1,7 @@
 db DEX_ZAPDOS ; pokedex id
 db 90 ; base hp
-db 90 ; base attack
-db 85 ; base defense
+db 95 ; base attack
+db 90 ; base defense
 db 100 ; base speed
 db 125 ; base special
 db ELECTRIC ; species type 1

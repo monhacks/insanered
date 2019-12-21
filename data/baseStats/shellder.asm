@@ -1,9 +1,9 @@
 db DEX_SHELLDER ; pokedex id
-db 30 ; base hp
-db 65 ; base attack
-db 100 ; base defense
-db 40 ; base speed
-db 45 ; base special
+db 40 ; base hp
+db 75 ; base attack
+db 130 ; base defense
+db 50 ; base speed
+db 75 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
 db 190 ; catch rate

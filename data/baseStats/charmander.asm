@@ -1,13 +1,13 @@
 db DEX_CHARMANDER ; pokedex id
-db 39 ; base hp
-db 52 ; base attack
-db 43 ; base defense
+db 45 ; base hp
+db 60 ; base attack
+db 45 ; base defense
 db 65 ; base speed
-db 50 ; base special
+db 60 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate
-db 65 ; base exp yield
+db 80 ; base exp yield
 INCBIN "pic/bmon/charmander.pic",0,1 ; 55, sprite dimensions
 dw CharmanderPicFront
 dw CharmanderPicBack

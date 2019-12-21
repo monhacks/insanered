@@ -217,21 +217,23 @@ _SaffronGymAfterBattleText6::
 	done
 
 _SaffronGymBattleText7::
-	text "SAFFRON #MON"
-	line "GYM is famous for"
-	cont "its psychics!"
+	text "NOORE: Hello"
+	line "there my friend!"
 
-	para "You want to see"
-	line "SABRINA!"
-	cont "I can tell!"
+	para "You dare come to"
+	line "challenge SABRINA"
+	cont "the GYM LEADER!"
 	done
 
 _SaffronGymEndBattleText7::
-	text "Arrrgh!"
+	text "Shit!"
 	prompt
 
 _SaffronGymAfterBattleText7::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "I think I have"
+	line "plans on going"
+	cont "back to JOHTO to"
+	cont "further my skills"
+	cont "as a #MON"
+	cont "trainer!"
 	done

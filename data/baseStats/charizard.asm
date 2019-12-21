@@ -1,9 +1,9 @@
 db DEX_CHARIZARD ; pokedex id
-db 78 ; base hp
-db 84 ; base attack
-db 78 ; base defense
-db 100 ; base speed
-db 85 ; base special
+db 80 ; base hp
+db 104 ; base attack
+db 80 ; base defense
+db 101 ; base speed
+db 130 ; base special
 db FIRE ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate

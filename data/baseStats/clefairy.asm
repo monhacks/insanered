@@ -7,7 +7,7 @@ db 60 ; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 150 ; catch rate
-db 68 ; base exp yield
+db 78 ; base exp yield
 INCBIN "pic/bmon/clefairy.pic",0,1 ; 55, sprite dimensions
 dw ClefairyPicFront
 dw ClefairyPicBack

@@ -1,9 +1,9 @@
 db DEX_ARCANINE ; pokedex id
 db 90 ; base hp
-db 110 ; base attack
-db 80 ; base defense
+db 115 ; base attack
+db 85 ; base defense
 db 95 ; base speed
-db 80 ; base special
+db 95 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 75 ; catch rate

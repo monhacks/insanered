@@ -1,12 +1,8 @@
 _ViridianCityText1::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
-
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	text "If you have"
+	line "POLIWHIRL, be"
+	cont "sure to evolve it"
+	cont "at Level 30 or 42!"
 	done
 
 _ViridianCityText_19122::

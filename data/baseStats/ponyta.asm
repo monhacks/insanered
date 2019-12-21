@@ -1,9 +1,9 @@
 db DEX_PONYTA ; pokedex id
-db 50 ; base hp
-db 85 ; base attack
-db 55 ; base defense
-db 90 ; base speed
-db 65 ; base special
+db 56 ; base hp
+db 86 ; base attack
+db 56 ; base defense
+db 91 ; base speed
+db 71 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 190 ; catch rate

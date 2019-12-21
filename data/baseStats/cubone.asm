@@ -1,9 +1,9 @@
 db DEX_CUBONE ; pokedex id
-db 50 ; base hp
-db 50 ; base attack
+db 60 ; base hp
+db 90 ; base attack
 db 95 ; base defense
 db 35 ; base speed
-db 40 ; base special
+db 50 ; base special
 db GROUND ; species type 1
 db GROUND ; species type 2
 db 190 ; catch rate

@@ -1,7 +1,7 @@
 db DEX_HAUNTER ; pokedex id
-db 45 ; base hp
-db 50 ; base attack
-db 45 ; base defense
+db 50 ; base hp
+db 65 ; base attack
+db 50 ; base defense
 db 95 ; base speed
 db 115 ; base special
 db GHOST ; species type 1

@@ -3,11 +3,11 @@ db 50 ; base hp
 db 105 ; base attack
 db 79 ; base defense
 db 76 ; base speed
-db 35 ; base special
+db 110 ; base special
 db FIGHTING ; species type 1
 db FIGHTING ; species type 2
 db 45 ; catch rate
-db 140 ; base exp yield
+db 190 ; base exp yield
 INCBIN "pic/bmon/hitmonchan.pic",0,1 ; 66, sprite dimensions
 dw HitmonchanPicFront
 dw HitmonchanPicBack

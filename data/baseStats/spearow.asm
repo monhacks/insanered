@@ -7,7 +7,7 @@ db 31 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 255 ; catch rate
-db 58 ; base exp yield
+db 79 ; base exp yield
 INCBIN "pic/bmon/spearow.pic",0,1 ; 55, sprite dimensions
 dw SpearowPicFront
 dw SpearowPicBack

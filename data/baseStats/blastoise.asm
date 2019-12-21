@@ -1,9 +1,9 @@
 db DEX_BLASTOISE ; pokedex id
-db 79 ; base hp
-db 83 ; base attack
-db 100 ; base defense
+db 89 ; base hp
+db 101 ; base attack
+db 116 ; base defense
 db 78 ; base speed
-db 85 ; base special
+db 111 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate

@@ -9,9 +9,10 @@ _PewterMartText2::
 	done
 
 _PewterMartText3::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "The best level to"
+	line "evolve NIDORINA"
+	cont "and NIDORINO is"
+	cont "30."
+
+	para "Don't forget it!"
 	done

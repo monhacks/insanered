@@ -1,9 +1,9 @@
 db DEX_VENUSAUR ; pokedex id
-db 80 ; base hp
-db 82 ; base attack
-db 83 ; base defense
-db 80 ; base speed
-db 100 ; base special
+db 85 ; base hp
+db 100 ; base attack
+db 107 ; base defense
+db 81 ; base speed
+db 122 ; base special
 db GRASS ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate

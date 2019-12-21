@@ -1,7 +1,7 @@
 db DEX_GASTLY ; pokedex id
-db 30 ; base hp
-db 35 ; base attack
-db 30 ; base defense
+db 35 ; base hp
+db 50 ; base attack
+db 35 ; base defense
 db 80 ; base speed
 db 100 ; base special
 db GHOST ; species type 1

@@ -783,7 +783,6 @@ PidgeottoPicFront::    INCBIN "pic/bmon/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "pic/monback/pidgeottob.pic"
 
 
-OldManPic::            INCBIN "pic/trainer/oldman.pic"
 
 
 SECTION "Battle (BANK C)", ROMX
@@ -896,6 +895,7 @@ RedPicBack::  INCBIN "pic/trainer/redb.pic"
 RedPicFront:: INCBIN "pic/trainer/red.pic"
 Rival1Pic::        INCBIN "pic/trainer/rival1.pic"
 ProfOakPic::       INCBIN "pic/trainer/prof.oak.pic"
+OldManPic::            INCBIN "pic/trainer/oldman.pic"
 
 SECTION "Pics 10", ROMX ;
 
