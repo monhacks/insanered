@@ -1448,7 +1448,7 @@ DewgongEvosMoves:
 ; Learnset
 	db 30, BLIZZARD
 	db 35, BLIZZARD
-	db 44, OCTAZOOKA
+	db 44, SURF
 	db 50, BODY_SLAM
 	db 56, HORN_DRILL
 	db 0

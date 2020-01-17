@@ -13,7 +13,7 @@ dw DewgongPicFront
 dw DewgongPicBack
 ; attacks known at lvl 0
 db BLIZZARD
-db OCTAZOOKA
+db SURF
 db BODY_SLAM
 db HORN_DRILL
 db 0 ; growth rate
