@@ -11,7 +11,7 @@ PewterCity_Object:
 	warp 13, 25, 0, PEWTER_POKECENTER
 
 	db 7 ; signs
-	sign 19, 29, 6 ; PewterCityText6
+	sign 17, 25, 6 ; PewterCityText6
 	sign 33, 19, 7 ; PewterCityText7
 	sign 24, 17, 8 ; MartSignText
 	sign 14, 25, 9 ; PokeCenterSignText
@@ -21,9 +21,9 @@ PewterCity_Object:
 
 	db 5 ; objects
 	object SPRITE_LASS, 8, 15, STAY, NONE, 1 ; person
-	object SPRITE_BLACK_HAIR_BOY_1, 17, 25, STAY, NONE, 2 ; person
+	object SPRITE_BLACK_HAIR_BOY_1, 16, 25, STAY, NONE, 2 ; person
 	object SPRITE_BLACK_HAIR_BOY_2, 27, 17, STAY, NONE, 3 ; person
-	object SPRITE_BLACK_HAIR_BOY_2, 26, 25, WALK, 2, 4 ; person
+	object SPRITE_BLACK_HAIR_BOY_2, 26, 24, WALK, 2, 4 ; person
 	object SPRITE_BUG_CATCHER, 35, 16, STAY, DOWN, 5 ; person
 
 	; warp-to

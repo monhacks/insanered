@@ -14,7 +14,7 @@ ViridianCity_Object:
 	sign 21, 29, 10 ; ViridianCityText10
 	sign 30, 19, 11 ; MartSignText
 	sign 24, 25, 12 ; PokeCenterSignText
-	sign 27, 7, 13 ; ViridianCityText13
+	sign 25,  7, 13 ; ViridianCityText13
 
 	db 7 ; objects
 	object SPRITE_BUG_CATCHER, 13, 20, WALK, 0, 1 ; person

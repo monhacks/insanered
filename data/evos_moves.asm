@@ -2033,8 +2033,8 @@ CharizardEvosMoves:
 	db 15, FLAMETHROWER
 	db 24, SLASH
 	db 36, SLASH
-	db 46, OUTRAGE
-	db 55, OUTRAGE
+	db 46, BODY_SLAM
+	db 55, BODY_SLAM
 	db 0
 
 MissingNoB5EvosMoves:
