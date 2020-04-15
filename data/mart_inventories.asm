@@ -42,7 +42,7 @@ CeladonMart5Clerk1Text::
 
 ; Celadon Dept. Store 5F (2)
 CeladonMart5Clerk2Text::
-	TX_MART TM_12, TM_23, TM_06, TM_08, TM_49
+	TX_MART HP_UP, PROTEIN, IRON, CARBOS, CALCIUM
 
 ; Fuchsia
 FuchsiaCashierText::

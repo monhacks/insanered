@@ -1,8 +1,8 @@
 ItemPrices:
 	money 0     ; MASTER_BALL
 	money 1200  ; ULTRA_BALL
-	money 600   ; GREAT_BALL
-	money 200   ; POKE_BALL
+	money 50    ; GREAT_BALL
+	money 10    ; POKE_BALL
 	money 0     ; TOWN_MAP
 	money 0     ; BICYCLE
 	money 0     ; SURFBOARD
@@ -14,11 +14,11 @@ ItemPrices:
 	money 250   ; ICE_HEAL
 	money 200   ; AWAKENING
 	money 200   ; PARLYZ_HEAL
-	money 3000  ; FULL_RESTORE
-	money 2500  ; MAX_POTION
-	money 1500  ; HYPER_POTION
-	money 700   ; SUPER_POTION
-	money 300   ; POTION
+	money 300   ; FULL_RESTORE
+	money 300   ; MAX_POTION
+	money 300   ; HYPER_POTION
+	money 50    ; SUPER_POTION
+	money 10    ; POTION
 	money 0     ; BOULDERBADGE
 	money 0     ; CASCADEBADGE
 	money 0     ; THUNDERBADGE
