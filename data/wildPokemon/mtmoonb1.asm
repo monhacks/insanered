@@ -1,13 +1,14 @@
 MoonMonsB1:
 	db $0A
-	db 8,ZUBAT
-	db 7,ZUBAT
-	db 7,GEODUDE
-	db 8,GEODUDE
-	db 9,ZUBAT
-	db 10,PARAS
-	db 10,ZUBAT
-	db 11,ZUBAT
-	db 9,CLEFAIRY
-	db 9,GEODUDE
+	db 13,VOLTORB
+	db 13,GRIMER
+	db 13,PARAS
+	db 13,RHYHORN
+	db 14,KOFFING
+	db 14,DIGLETT
+	db 14,CLEFAIRY
+	db 14,GEODUDE
+	db 14,ONIX
+	db 14,KOFFING
 	db $00
+

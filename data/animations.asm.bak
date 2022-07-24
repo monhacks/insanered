@@ -163,7 +163,6 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
-	dw StruggleAnim
 	dw OctazookaAnim
 	dw VoltTackleAnim
 	dw SynthesisAnim
@@ -181,6 +180,7 @@ AttackAnimationPointers:
 	dw ElectroBallAnim
 	dw ScaryFaceAnim
 	dw FeatherDanceAnim
+	dw StruggleAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim

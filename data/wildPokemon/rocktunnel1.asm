@@ -1,13 +1,14 @@
 TunnelMonsB1:
 	db $0F
-	db 16,ZUBAT
-	db 17,ZUBAT
-	db 17,GEODUDE
-	db 15,MACHOP
-	db 16,GEODUDE
-	db 18,ZUBAT
-	db 15,ZUBAT
-	db 17,MACHOP
-	db 13,ONIX
-	db 15,ONIX
+	db 31,ONIX
+	db 31,KOFFING
+	db 31,VOLTORB
+	db 31,MACHOP
+	db 31,GOLBAT
+	db 31,GRIMER
+	db 31,DIGLETT
+	db 31,GEODUDE
+	db 31,LICKITUNG
+	db 31,GRAVELER
 	db $00
+

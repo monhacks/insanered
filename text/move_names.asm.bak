@@ -163,7 +163,6 @@ MoveNames::
 	db "SUPER FANG@"
 	db "SLASH@"
 	db "SUBSTITUTE@"
-	db "STRUGGLE@"
 	db "OCTAZOOKA@"
 	db "VOLT TACKLE@"
 	db "SYNTHESIS@"
@@ -181,3 +180,5 @@ MoveNames::
 	db "ELECTRO BALL@"
 	db "SCARY FACE@"
 	db "FEATHERDANCE@"
+	db "STRUGGLE@"
+
