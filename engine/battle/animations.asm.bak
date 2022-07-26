@@ -144,7 +144,6 @@ DrawFrameBlock:
 	jr z, .done ; skip cleaning OAM buffer and don't advance the frame block destination address
 	ld a, [wAnimationID]
 	cp GROWL
-	jr z, .resetFrameBlockDestAddr
 	cp POWER_GROWL
 	jr z, .resetFrameBlockDestAddr
 	call AnimationCleanOAM

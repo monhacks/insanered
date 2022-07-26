@@ -246,7 +246,7 @@ SpearowEvosMoves:
 ; Learnset
 	db 9, LEER
 	db 15, FURY_ATTACK
-	db 22, MIRROR_MOVE
+	db 18, POWER_GROWL
 	db 29, DRILL_PECK
 	db 36, AGILITY
 	db 0
@@ -563,7 +563,7 @@ GrowlitheEvosMoves:
 	db 0
 ; Learnset
 	db 8, BITE
-	db 12, TAKE_DOWN
+	db 12, POWER_GROWL
 	db 18, FLAME_WHEEL
 	db 24, FLAMETHROWER
 	db 30, SWIFT
@@ -949,11 +949,11 @@ DoduoEvosMoves:
 	db 0
 ; Learnset
 	db 22, TAKE_DOWN
-	db 25, TAKE_DOWN
+	db 24, TAKE_DOWN
+	db 26, DRILL_PECK
 	db 28, DRILL_PECK
-	db 31, DRILL_PECK
-	db 34, TRI_ATTACK
-	db 37, TRI_ATTACK
+	db 30, POWER_GROWL
+	db 32, POWER_GROWL
 	db 0
 
 PoliwagEvosMoves:
@@ -1063,7 +1063,7 @@ VulpixEvosMoves:
 ; Learnset
 	db 10, CONFUSE_RAY
 	db 13, FLAME_WHEEL
-	db 17, SWIFT
+	db 17, POWER_GROWL
 	db 24, DIG
 	db 27, FLAMETHROWER
 	db 0
@@ -1081,7 +1081,7 @@ PikachuEvosMoves:
 ; Learnset
 	db 6, TAIL_WHIP
 	db 9, THUNDER_WAVE
-	db 12, QUICK_ATTACK
+	db 12, POWER_GROWL
 	db 16, DOUBLE_TEAM
 	db 22, VOLT_TACKLE
 	db 0
@@ -1757,7 +1757,7 @@ BulbasaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
-	db 13, POISONPOWDER
+	db 13, POWER_GROWL
 	db 16, SYNTHESIS
 	db 20, GROWTH
 	db 24, SLEEP_POWDER
@@ -1990,7 +1990,7 @@ CharmanderEvosMoves:
 	db 6, EMBER
 	db 9, SCARY_FACE
 	db 11, HEADBUTT
-	db 14, SLASH
+	db 14, POWER_GROWL
 	db 16, FIRE_PUNCH
 	db 46, FIRE_SPIN
 	db 0
