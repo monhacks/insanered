@@ -1,9 +1,9 @@
 db DEX_FARFETCHD ; pokedex id
-db 73 ; base hp
-db 81 ; base attack
-db 79 ; base defense
-db 80 ; base speed
-db 62 ; base special
+db 62 ; base hp
+db 135 ; base attack
+db 95 ; base defense
+db 65 ; base speed
+db 68 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
@@ -12,13 +12,13 @@ INCBIN "pic/bmon/farfetchd.pic",0,1 ; 66, sprite dimensions
 dw FarfetchdPicFront
 dw FarfetchdPicBack
 ; attacks known at lvl 0
-db SWORDS_DANCE
-db FURY_ATTACK
-db SLASH
-db RAZOR_WIND
+db GUST
+db SAND_ATTACK
+db 0
+db 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 2,3,4,8
+	tmlearn 2,3,8
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32

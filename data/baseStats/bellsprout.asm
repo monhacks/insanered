@@ -12,13 +12,13 @@ INCBIN "pic/bmon/bellsprout.pic",0,1 ; 55, sprite dimensions
 dw BellsproutPicFront
 dw BellsproutPicBack
 ; attacks known at lvl 0
-db TOXIC
-db STUN_SPORE
-db ACID
 db WRAP
+db ACID
+db 0
+db 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 3,6
+	tmlearn 3,4,6
 	tmlearn 9,10
 	tmlearn 20,21,22
 	tmlearn 31,32

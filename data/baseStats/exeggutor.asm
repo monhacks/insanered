@@ -13,12 +13,12 @@ dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
 db PSYCHIC_M
-db GIGA_DRAIN
+db SEED_BOMB
 db EGG_BOMB
 db SLEEP_POWDER
 db 5 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 4,6
 	tmlearn 9,10,15
 	tmlearn 20,21,22
 	tmlearn 29,30,31,32

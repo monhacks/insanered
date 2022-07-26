@@ -177,7 +177,7 @@ NUM_ATTACKS EQU const_value + -1
 	const DRAGONBREATH 
 	const FURY_CUTTER  
 	const GIGA_DRAIN   
-	const OUTRAGE      
+	const POWER_GROWL      
 	const AEROBLAST    
 	const SLUDGE_BOMB  
 	const EXTREMESPEED 
@@ -186,7 +186,13 @@ NUM_ATTACKS EQU const_value + -1
 	const ELECTRO_BALL 
 	const SCARY_FACE   
 	const FEATHERDANCE 
-
+	const BULLDOZE
+	const SEED_BOMB 
+	const DRAGON_PULSE
+	const MAGICAL_LEAF
+	const SACRED_FIRE
+	const CLOSE_COMBAT
+	const SIGNAL_BEAM
 	; Moves do double duty as animation identifiers.
 
 	const SHOWPIC_ANIM

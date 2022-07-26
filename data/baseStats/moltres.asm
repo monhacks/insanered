@@ -12,13 +12,13 @@ INCBIN "pic/bmon/moltres.pic",0,1 ; 77, sprite dimensions
 dw MoltresPicFront
 dw MoltresPicBack
 ; attacks known at lvl 0
-db FIRE_BLAST
-db SOLARBEAM
+db SACRED_FIRE
+db TOXIC
 db SKY_ATTACK
 db DOUBLE_TEAM
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,4
+	tmlearn 2
 	tmlearn 9,10,15
 	tmlearn 20
 	tmlearn 31,32

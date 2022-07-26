@@ -163,6 +163,7 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw StruggleAnim
 	dw OctazookaAnim
 	dw VoltTackleAnim
 	dw SynthesisAnim
@@ -171,7 +172,7 @@ AttackAnimationPointers:
 	dw DragonBreathAnim
 	dw FuryCutterAnim
 	dw GigaDrainAnim
-	dw OutrageAnim
+	dw PowerGrowlAnim
 	dw AeroBlastAnim
 	dw SludgeBombAnim
 	dw ExtremeSpeedAnim
@@ -180,7 +181,12 @@ AttackAnimationPointers:
 	dw ElectroBallAnim
 	dw ScaryFaceAnim
 	dw FeatherDanceAnim
-	dw StruggleAnim
+	dw BulldozeAnim
+	dw SeedBombAnim
+	dw DragonPulseAnim
+	dw MagicalLeafAnim
+	dw SacredFireAnim
+	dw CloseCombatAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1190,8 +1196,8 @@ GigaDrainAnim:
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
-OutrageAnim:
-	db $46,$24,$04
+PowerGrowlAnim:
+	db $46,$2C,$12
 	db $FF
 
 AeroBlastAnim:
@@ -1240,6 +1246,51 @@ ScaryFaceAnim:
 FeatherDanceAnim:
 	db SE_LIGHT_SCREEN_PALETTE, $4F
 	db SE_PETALS_FALLING, $FF
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+	
+BulldozeAnim:
+	db SE_DARK_SCREEN_FLASH, $59
+	db SE_SHAKE_SCREEN, $FF
+	db SE_DARK_SCREEN_FLASH, $59
+	db SE_SHAKE_SCREEN, $FF
+	db $FF
+
+SeedBombAnim:
+	db $46,$48,$1B
+	db $44,$78,$42
+	db $FF	
+
+DragonPulseAnim:
+	db $03,$3D,$2E
+	db SE_DELAY_ANIMATION_10, $FF
+	db SE_DELAY_ANIMATION_10, $FF
+	db SE_WAVY_SCREEN, $5C
+	db $FF
+
+MagicalLeafAnim:
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+	db SE_LEAVES_FALLING, $4A
+	db $41,$80,$44
+	db $01,$0C,$16
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+SacredFireAnim:
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+	db SE_SHOOT_MANY_BALLS_UPWARD, $FF
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $46,$FF,$20	
+	db $46,$52,$0C
+	db $46,$FF,$0D
+	db $46,$FF,$0E
+	db $FF
+
+CloseCombatAnim:
+	db SE_DARK_SCREEN_FLASH, $FF
+	db SE_DARK_SCREEN_FLASH, $FF
+	db SE_DARK_SCREEN_FLASH, $FF
+	db $46,$04,$04
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 

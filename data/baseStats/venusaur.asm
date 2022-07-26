@@ -13,12 +13,12 @@ dw VenusaurPicFront
 dw VenusaurPicBack
 ; attacks known at lvl 0
 db SLEEP_POWDER
-db RAZOR_LEAF
+db SEED_BOMB
 db BODY_SLAM
 db SLUDGE_BOMB
 db 3 ; growth rate
 ; learnset
-	tmlearn 3,6,8
+	tmlearn 3,4,6,8
 	tmlearn 9,10,15
 	tmlearn 20,21,22
 	tmlearn 31,32

@@ -2128,6 +2128,8 @@ RedFishingTilesBack:  INCBIN "gfx/red_fishing_tile_back.2bpp"
 RedFishingTilesSide:  INCBIN "gfx/red_fishing_tile_side.2bpp"
 RedFishingRodTiles:   INCBIN "gfx/red_fishingrod_tiles.2bpp"
 
-INCLUDE "data/animations.asm"
-
 INCLUDE "engine/evolution.asm"
+
+SECTION "bank1F", ROMX
+
+INCLUDE "data/animations.asm"
