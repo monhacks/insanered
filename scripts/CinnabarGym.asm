@@ -25,7 +25,7 @@ CinnabarGymScript_75772:
 Gym7CityName:
 	db "CINNABAR ISLAND@"
 Gym7LeaderName:
-	db "BLAINE@"
+	db "MISTY@"
 
 CinnabarGymScript_75792:
 	xor a
@@ -144,7 +144,7 @@ CinnabarGymScript3_75857:
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_BLAINE
-	lb bc, TM_38, 1
+	lb bc, TM_14, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $b

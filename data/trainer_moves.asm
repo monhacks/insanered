@@ -13,7 +13,7 @@ LoneMoves:
 	db 2,GIGA_DRAIN
 	db 3,SLUDGE_BOMB
 	db 3,PSYCHIC_M
-	db 3,FIRE_BLAST
+	db 3,FLAMETHROWER
 	db 4,EARTHQUAKE
 
 TeamMoves:

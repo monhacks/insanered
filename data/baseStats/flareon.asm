@@ -18,10 +18,10 @@ db BODY_SLAM
 db DIG
 db 0 ; growth rate
 ; learnset
-	tmlearn 8
+	tmlearn 4,8
 	tmlearn 9,10,15
 	tmlearn 20
-	tmlearn 31,32
+	tmlearn 30,31,32
 	tmlearn 33,34,38,39,40
 	tmlearn 44
 	tmlearn 50

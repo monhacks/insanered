@@ -228,8 +228,8 @@ _CeruleanCityText16::
 _CeruleanCityText17::
 	text "CERULEAN CITY"
 	line "#MON GYM"
-	cont "LEADER: MISTY"
+	cont "LEADER: BLAINE"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "The Hot-Headed"
+	line "Quiz Master!"
 	done

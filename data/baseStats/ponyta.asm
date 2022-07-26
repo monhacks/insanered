@@ -18,7 +18,7 @@ db GROWL
 db EMBER
 db 0 ; growth rate
 ; learnset
-	tmlearn 7,8
+	tmlearn 4,7,8
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32

@@ -84,45 +84,46 @@ _CeruleanGymAfterBattleText1::
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "Hello sir!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Let's have a"
+	line "battle my friend!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "It"
+	line "cannot be!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "You don't stand"
+	line "a chance against"
+	cont "our leader!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "BLAINE will burn"
+	line "your #MON to"
+	cont "cinders!"
 	done
 
 _CeruleanGymText_5c82a::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "Here's my advice!"
+	para "A word of advice!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "The LEADER, BLAINE,"
+	line "loves using FIRE"
+	cont "type #MON!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "You can drench"
+	line "them with WATER!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "Or, attack them"
+	line "with GROUND type!"
 	done
 
 _CeruleanGymText_5c82f::
-	text "You beat MISTY!"
+	text "You beat BLAINE!"
 	line "What'd I tell ya?"
 
 	para "You and me kid,"

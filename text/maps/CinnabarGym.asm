@@ -1,32 +1,34 @@
 _BlaineBattleText::
 	text "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "I am MISTY! I"
+	line "have come to"
+	cont "replace BLAINE as"
+	cont "leader!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Be prepared for"
+	line "my WATER #MON"
+	cont "to drench every"
+	cont "flame!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Make sure you"
+	line "have plenty of"
+	cont "FULL RESTORES!"
 	done
 
 _BlaineEndBattleText::
-	text "I have"
-	line "burnt out!"
+	text "Wow!"
+	line "You beat me!"
 
 	para "You have earned"
 	line "the VOLCANOBADGE!@@"
 
 _BlaineFireBlastText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
+	text "BLIZZARD is the"
+	line "ultimate ice"
 	cont "technique!"
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "Don't waste it!"
 	done
 
 _BlaineBadgeText::
@@ -50,15 +52,15 @@ _ReceivedTM38Text::
 _TM38ExplanationText::
 	text ""
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "TM14 contains"
+	line "BLIZZARD!"
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "Teach it to a"
+	line "water #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "LAPRAS or DEWGONG"
+	line "would be good"
+	cont "bets!"
 	done
 
 _TM38NoRoomText::

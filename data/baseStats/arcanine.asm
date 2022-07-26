@@ -18,7 +18,7 @@ db DIG
 db DOUBLE_TEAM
 db 5 ; growth rate
 ; learnset
-	tmlearn 8
+	tmlearn 4,8
 	tmlearn 9,10,15
 	tmlearn 20,23
 	tmlearn 28,30,31,32

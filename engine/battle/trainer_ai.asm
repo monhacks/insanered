@@ -372,53 +372,53 @@ TrainerAIPointers:
 ; one entry per trainer class
 ; first byte, number of times (per Pokémon) it can occur
 ; next two bytes, pointer to AI subroutine for trainer class
-	dbw 2,LoreleiAI
-	dbw 2,LoreleiAI
-	dbw 2,AgathaAI
-	dbw 1,LanceAI
-	dbw 1,LanceAI
-	dbw 1,LanceAI
-	dbw 1,Sony3AI
-	dbw 1,CooltrainerFAI
-	dbw 1,CooltrainerFAI
-	dbw 1,LanceAI
-	dbw 1,Sony3AI
-	dbw 2,LoreleiAI
-	dbw 1,CooltrainerFAI ; juggler_x
-	dbw 1,LanceAI
-	dbw 1,CooltrainerFAI
-	dbw 1,Sony3AI
-	dbw 1,LanceAI
-	dbw 1,CooltrainerFAI
-	dbw 1,Sony3AI
-	dbw 1,LanceAI
-	dbw 1,CooltrainerFAI ; juggler
-	dbw 1,Sony3AI
-	dbw 1,LanceAI
-	dbw 1,Sony3AI ; blackbelt
-	dbw 1,Sony2AI
-	dbw 1,Sony3AI
-	dbw 1,Sony3AI ; chief
-	dbw 1,Sony3AI
-	dbw 1,Sony3AI ; giovanni
-	dbw 1,LanceAI
-	dbw 1,Sony3AI ; cooltrainerm
-	dbw 1,Sony3AI ; cooltrainerf
-	dbw 1,Sony3AI ; bruno
+	dbw 5,LoreleiAI
+	dbw 5,LoreleiAI
+	dbw 5,AgathaAI
+	dbw 5,LanceAI
+	dbw 5,LanceAI
+	dbw 5,LanceAI
+	dbw 5,Sony3AI
+	dbw 5,CooltrainerFAI
+	dbw 5,CooltrainerFAI
+	dbw 5,LanceAI
+	dbw 5,Sony3AI
+	dbw 5,LoreleiAI
+	dbw 5,CooltrainerFAI ; juggler_x
+	dbw 5,LanceAI
+	dbw 5,CooltrainerFAI
+	dbw 5,Sony3AI
+	dbw 5,LanceAI
+	dbw 5,CooltrainerFAI
+	dbw 5,Sony3AI
+	dbw 5,LanceAI
+	dbw 5,CooltrainerFAI ; juggler
+	dbw 5,Sony3AI
+	dbw 5,LanceAI
+	dbw 5,Sony3AI ; blackbelt
+	dbw 5,Sony2AI
+	dbw 5,Sony3AI
+	dbw 5,Sony3AI ; chief
+	dbw 5,Sony3AI
+	dbw 5,Sony3AI ; giovanni
+	dbw 5,LanceAI
+	dbw 5,Sony3AI ; cooltrainerm
+	dbw 5,Sony3AI ; cooltrainerf
+	dbw 5,Sony3AI ; bruno
 	dbw 5,BrockAI ; brock
-	dbw 2,LoreleiAI ; misty
-	dbw 1,LanceAI ; surge
-	dbw 1,LanceAI ; erika
-	dbw 1,Sony3AI ; koga
-	dbw 1,Sony3AI ; blaine
-	dbw 1,Sony3AI ; sabrina
-	dbw 1,LanceAI
-	dbw 1,LanceAI ; sony2
-	dbw 1,Sony3AI ; sony3
-	dbw 1,Sony3AI ; lorelei
-	dbw 1,Sony3AI
-	dbw 1,Sony3AI ; agatha
-	dbw 1,Sony3AI ; lance
+	dbw 5,Sony3AI ; misty
+	dbw 5,LanceAI ; surge
+	dbw 5,LanceAI ; erika
+	dbw 5,Sony3AI ; koga
+	dbw 5,LoreleiAI ; blaine
+	dbw 5,Sony3AI ; sabrina
+	dbw 5,LanceAI
+	dbw 5,LanceAI ; sony2
+	dbw 5,Sony3AI ; sony3
+	dbw 5,Sony3AI ; lorelei
+	dbw 5,Sony3AI
+	dbw 5,Sony3AI ; agatha
+	dbw 5,Sony3AI ; lance
 
 JugglerAI:
 	cp $40
