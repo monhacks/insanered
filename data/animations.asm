@@ -1278,9 +1278,7 @@ MagicalLeafAnim:
 	db $FF
 
 SacredFireAnim:
-	db SE_LIGHT_SCREEN_PALETTE, $FF
 	db SE_SHOOT_MANY_BALLS_UPWARD, $FF
-	db SE_RESET_SCREEN_PALETTE, $FF
 	db $46,$FF,$20	
 	db $46,$52,$0C
 	db $46,$FF,$0D

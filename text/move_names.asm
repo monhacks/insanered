@@ -186,6 +186,6 @@ MoveNames::
 	db "DRAGON PULSE@"
 	db "MAGICAL LEAF@"
 	db "SACRED FIRE@"
-	db "CLOSE_COMBAT@"
+	db "CLOSE COMBAT@"
 	db "SIGNAL BEAM@"
 	

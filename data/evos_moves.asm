@@ -1945,10 +1945,10 @@ AerodactylEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, ROCK_SLIDE
-	db 38, EARTHQUAKE
-	db 45, AEROBLAST
-	db 54, DRAGON_PULSE
+	db 24, ROCK_SLIDE
+	db 26, EARTHQUAKE
+	db 28, AEROBLAST
+	db 30, DRAGON_PULSE
 	db 0
 
 MissingNoACEvosMoves:

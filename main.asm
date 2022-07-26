@@ -2119,8 +2119,6 @@ SECTION "bank1E", ROMX
 
 INCLUDE "engine/battle/animations.asm"
 
-INCLUDE "engine/overworld/cut2.asm"
-
 INCLUDE "engine/overworld/ssanne.asm"
 
 RedFishingTilesFront: INCBIN "gfx/red_fishing_tile_front.2bpp"
@@ -2130,6 +2128,8 @@ RedFishingRodTiles:   INCBIN "gfx/red_fishingrod_tiles.2bpp"
 
 INCLUDE "engine/evolution.asm"
 
+INCLUDE "data/animations.asm"
+
 SECTION "bank1F", ROMX
 
-INCLUDE "data/animations.asm"
+INCLUDE "engine/overworld/cut2.asm"

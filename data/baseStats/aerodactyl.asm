@@ -12,10 +12,10 @@ INCBIN "pic/bmon/aerodactyl.pic",0,1 ; 77, sprite dimensions
 dw AerodactylPicFront
 dw AerodactylPicBack
 ; attacks known at lvl 0
-db ROCK_SLIDE
-db EARTHQUAKE
-db AEROBLAST
-db DRAGON_PULSE
+db WING_ATTACK
+db SUPERSONIC
+db BITE
+db SUBSTITUTE
 db 5 ; growth rate
 ; learnset
 	tmlearn 2,4
