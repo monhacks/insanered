@@ -357,7 +357,7 @@ NidoranFEvosMoves:
 	db 0
 ; Learnset
 	db 8, DOUBLE_KICK
-	db 12, POWER_GROWL
+	db 12, BITE
 	db 17, POISON_STING
 	db 24, POISON_FANG
 	db 36, TOXIC

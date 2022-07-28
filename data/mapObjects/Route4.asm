@@ -13,8 +13,8 @@ Route4_Object:
 
 	db 3 ; objects
 	object SPRITE_LASS, 9, 8, WALK, 0, 1 ; person
-	object SPRITE_LASS, 63, 3, STAY, RIGHT, 2, OPP_LASS, 4
-	object SPRITE_BALL, 57, 3, STAY, NONE, 3, TM_04
+	object SPRITE_LASS, 56,  2, STAY, DOWN, 2, OPP_LASS, 4
+	object SPRITE_BALL, 49,  9, STAY, NONE, 3, TM_04
 
 	; warp-to
 	warp_to 11, 5, ROUTE_4_WIDTH ; MT_MOON_POKECENTER

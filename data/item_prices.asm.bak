@@ -1,6 +1,6 @@
 ItemPrices:
 	money 0     ; MASTER_BALL
-	money 120  ; ULTRA_BALL
+	money 1200  ; ULTRA_BALL
 	money 50    ; GREAT_BALL
 	money 10    ; POKE_BALL
 	money 0     ; TOWN_MAP
@@ -30,9 +30,9 @@ ItemPrices:
 	money 550   ; ESCAPE_ROPE
 	money 350   ; REPEL
 	money 0     ; OLD_AMBER
-	money 210  ; FIRE_STONE
-	money 210  ; THUNDER_STONE
-	money 210  ; WATER_STONE
+	money 2100  ; FIRE_STONE
+	money 2100  ; THUNDER_STONE
+	money 2100  ; WATER_STONE
 	money 9800  ; HP_UP
 	money 9800  ; PROTEIN
 	money 9800  ; IRON

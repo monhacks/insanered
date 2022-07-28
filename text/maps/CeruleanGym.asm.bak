@@ -23,10 +23,6 @@ _CeruleanGymText_5c7c3::
 
 	para "Use it on a"
 	line "fire #MON!"
-	
-	para "CHARIZARD or"
-	line "ARCANINE would be"
-	cont "the best bet!"
 	done
 
 _CeruleanGymText_5c7c8::
